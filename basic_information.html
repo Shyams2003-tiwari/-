@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <title>सामान्य जानकारी</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    h2 {
+      color: #2e7d32;
+    }
+    form {
+      max-width: 500px;
+    }
+    label {
+      display: block;
+      margin-top: 10px;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      box-sizing: border-box;
+    }
+    button {
+      margin-top: 15px;
+      padding: 10px 20px;
+      background-color: #2e7d32;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #1b5e20;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>📋 सामान्य जानकारी</h2>
+
+  <form action="https://formsubmit.co/shyamsundarti2003@gmai.com" method="POST">
+    <label>नाम:</label>
+    <input type="text" name="Name" required>
+
+    <label>पिता का नाम:</label>
+    <input type="text" name="Father_Name" required>
+
+    <label>कक्षा:</label>
+    <input type="text" name="Class" required>
+
+    <label>विद्यालय का नाम:</label>
+    <input type="text" name="School_Name" required>
+
+    <label>पता:</label>
+    <textarea name="Address" rows="3" required></textarea>
+
+    <label>मोबाइल नंबर:</label>
+    <input type="tel" name="Mobile" pattern="[0-9]{10}" required>
+
+    <button type="submit">सबमिट करें</button>
+  </form>
+
+</body>
+</html>
